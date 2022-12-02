@@ -6,18 +6,15 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 5px;
-    /* background-color: #b3aa6b; */
     background: linear-gradient(22deg, #f3d1c2 61%, #b3aa6b 62%, #b3aa6b 79%, #f3d1c2 80%);
 }
 
 nav h1 {
-    /* border: 2px solid black; */
     padding: 10px;
     border-radius: 8px;
     color: #4C5081;
     font-size: 2rem;
     font-family: emoji, serif;
-    /* background: black; */
 }
 
 nav a {
