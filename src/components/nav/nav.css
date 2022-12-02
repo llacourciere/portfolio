@@ -20,10 +20,16 @@ nav h1 {
     /* background: black; */
 }
 
-nav button {
+nav a {
     border: none;
     margin: 5px;
     font-size: 1.2rem;
     background: transparent;
     color: #4C5081;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #4C5081;
+    color: #f3d1c2;
 }
