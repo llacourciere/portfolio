@@ -1,0 +1,16 @@
+.about {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about img {
+    width: 300px;
+    border: 2px solid #b3aa6b;
+    border-radius: 8px;
+    float: left;
+    margin: 0 20px 10px 0;
+}
+
+.about p {
+    color: #4C5081;
+}

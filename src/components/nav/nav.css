@@ -1,0 +1,29 @@
+body {
+    background: #f3d1c2;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    /* background-color: #b3aa6b; */
+    background: linear-gradient(22deg, #f3d1c2 60%, #b3aa6b 60%, #b3aa6b 77%, #f3d1c2 63%);
+}
+
+nav h1 {
+    /* border: 2px solid black; */
+    padding: 10px;
+    border-radius: 8px;
+    color: #4C5081;
+    font-size: 2rem;
+    font-family: emoji, serif;
+    /* background: black; */
+}
+
+nav button {
+    border: none;
+    margin: 5px;
+    font-size: 1.2rem;
+    background: transparent;
+    color: #4C5081;
+}
