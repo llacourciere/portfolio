@@ -5,7 +5,7 @@ const Nav = () =>
     <h1>Lauren Lacourciere</h1>
     <div> 
         <button>About</button>
-        <button>Projects</button>
+        <button>Portfolio</button>
         <button>Resume</button>
         <button>Contact</button>
     </div>
