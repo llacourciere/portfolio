@@ -5,8 +5,12 @@ import PortfolioContainer from './components/portfolioContainer';
 function App() {
   return (
     <div className="App">
+      <div>
       <PortfolioContainer />
-      <Foot/>
+</div>
+<div>
+<Foot/>
+</div>
     </div>
   );
 }
