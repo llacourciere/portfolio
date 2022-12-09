@@ -1,7 +1,7 @@
-/* .about {
+.about {
     width: 80%;
     margin: 0 auto;
-} */
+}
 
 .about img {
     width: 400px;
@@ -17,15 +17,17 @@
 
 @media (max-width: 780) {
     .about {
-        width: 80%;
+        width: 100%;
+        display: flex;
         justify-content: center;
+        flex-direction: column;
     }
     .image {
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
     }
     .bio {
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
     }
 }
