@@ -4,11 +4,11 @@ import me from './images/about.jpeg';
 
 const About = () =>
     <div className='about d-flex'>
-        <div className="image d-flex sm-12 md-6">
+        <div className="image sm-12 md-6">
             <img src={me} alt='climbing image' />
         </div>
 
-        <div className="bio d-flex sm-12 md-6">
+        <div className="bio sm-12 md-6">
             <p>I am a Portland, Oregon based web developer. I have a passion for making pretty things, whether it is your website or a hand knit sweater.
                 <br></br>
                 <br></br>
@@ -19,8 +19,6 @@ const About = () =>
 
             <p> Take a look around if you like what you see, let's chat!</p>
         </div>
-
-
     </div>
 
 export default About;

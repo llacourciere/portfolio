@@ -6,11 +6,11 @@ function App() {
   return (
     <div className="App">
       <div>
-      <PortfolioContainer />
-</div>
-<div>
-<Foot/>
-</div>
+        <PortfolioContainer />
+      </div>
+      <div>
+        <Foot />
+      </div>
     </div>
   );
 }

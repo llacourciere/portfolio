@@ -1,14 +1,39 @@
 import './contact.css';
 import Form from 'react-bootstrap/Form';
+import Container from 'react-bootstrap/Container';
+import Button from 'react-bootstrap/Button';
 
 const Contact = () => {
     return (
         <div className="contact-page">
             <div className="contact-form">
+                <Form>
+                    <Form.Group className="mb-3" controlId="formBasicEmail">
+                        <Form.Label>Email address</Form.Label>
+                        <Form.Control type="email" placeholder="Enter email" />
+                        <Form.Text className="text-muted">
+                        </Form.Text>
+                    </Form.Group>
+                    <Form.Group>
+                        <Form.Label>Name</Form.Label>
+                        <Form.Control type="text" placeholder="Enter name" />
+                        <Form.Text className="text-muted">
+                        </Form.Text>
+                    </Form.Group>
+                    <Form.Group>
+                        <Form.Label>Message</Form.Label>
+                        <Form.Control type="text" placeholder="Wanna Chat?" />
+                        <Form.Text className="text-muted">
+                        </Form.Text>
+                    </Form.Group>
+                    <Button variant="primary" type="submit">
+        Submit
+      </Button>
+                </Form>
 
             </div>
             <div class="social">
-                <div class="contact-title">
+                <div class="contact-title justify-content">
                     <h4>Find Me On the Internet</h4>
                 </div>
                 <div class="social-icons">

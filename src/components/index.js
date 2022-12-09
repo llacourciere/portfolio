@@ -1,4 +1,4 @@
 import Nav from './nav';
+import About from './about';
 
-
-export { Nav };
+export { Nav, About };
