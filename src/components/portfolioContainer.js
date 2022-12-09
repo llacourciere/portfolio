@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import Nav from './nav';
 import About from '../Pages/about';
-import Portfolio from './portfolio';
-//import Contact from './contact';
+import Portfolio from '../Pages/portfolio';
+import Contact from '../Pages/contact';
 import ResumePage from '../Pages/resume';
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState('Resume');
+  const [currentPage, setCurrentPage] = useState('Contact');
 
   const renderPage = () => {
     if (currentPage === 'About') {
@@ -18,7 +18,7 @@ export default function PortfolioContainer() {
     if (currentPage === 'Resume') {
         return <ResumePage />;
       }
-    // return <Contact />;
+    return <Contact />;
 }
 
 

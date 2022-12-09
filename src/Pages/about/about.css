@@ -1,7 +1,7 @@
-.about {
+/* .about {
     width: 80%;
     margin: 0 auto;
-}
+} */
 
 .about img {
     width: 400px;
@@ -13,4 +13,19 @@
 
 .about p {
     color: #4C5081;
+}
+
+@media (max-width: 780) {
+    .about {
+        width: 80%;
+        justify-content: center;
+    }
+    .image {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .bio {
+        width: 80%;
+        margin: 0 auto;
+    }
 }
