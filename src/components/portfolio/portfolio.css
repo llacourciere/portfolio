@@ -4,7 +4,7 @@
 .repo-button, .app-button {
     background-color: #b3aa6b;
     text-decoration: none ;
-    color: white;
+    color: #f9e1d6;
     padding: 10px;
     border-radius: 5px;
     font-size: 14px;
@@ -31,16 +31,16 @@
     position: relative;
     border: 2px solid #4C5081;
     border-radius: 8px;
-
+    background-color: #4C5081;
 }
 .card-title {
     text-align: center;
     size: 20px;
     font-weight: bolder;
-    color:#4C5081
+    color:#f3d1c2
 }
 .card-text {
-    color:#4C5081;
+    color:#f3d1c2;
     margin-bottom: 25px;
     display: flex;
     text-align: center;

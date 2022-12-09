@@ -3,10 +3,10 @@ import Nav from './nav';
 import About from '../Pages/about';
 import Portfolio from './portfolio';
 //import Contact from './contact';
-//import Resume from './resume';
+import ResumePage from '../Pages/resume';
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState('Portfolio');
+  const [currentPage, setCurrentPage] = useState('Resume');
 
   const renderPage = () => {
     if (currentPage === 'About') {
@@ -15,9 +15,9 @@ export default function PortfolioContainer() {
     if (currentPage === 'Portfolio') {
       return <Portfolio />;
     }
-    // if (currentPage === 'Resume') {
-    //     return <Resume />;
-    //   }
+    if (currentPage === 'Resume') {
+        return <ResumePage />;
+      }
     // return <Contact />;
 }
 

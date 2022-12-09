@@ -28,9 +28,9 @@ const Portfolio = () => {
         {
             title: 'Coding Quiz',
             description: 'A Quiz about coding',
-            link: 'https://www.producthunt.com/posts/project-1',
-            repo: 'https://github.com/llacourciere/Xdream',
-            languages: 'JavaScript, CSS, HTML, bootstrap, mysql, nodejs, handlebars',
+            link: 'https://llacourciere.github.io/coding-quiz/',
+            repo: 'https://github.com/llacourciere/coding-quiz',
+            languages: 'JavaScript, CSS, HTML',
             img: `${img1}`
         },
 
