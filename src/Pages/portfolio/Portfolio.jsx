@@ -5,6 +5,7 @@ import Button from 'react-bootstrap/Button';
 import img1 from './images/coding-quiz.png';
 import img2 from './images/xdream.png';
 import img3 from './images/getflix.png';
+import img4 from './images/gitinit.png';
 
 const Portfolio = () => {
 
@@ -24,6 +25,14 @@ const Portfolio = () => {
             repo: 'https://github.com/apatheticjedi/get-flix-and-chill',
             languages: 'JavaScript, CSS, HTML, MD Bootstrap, JQuery',
             img: `${img3}`
+        },
+        {
+            title: 'GitInit to Win It',
+            description: 'Keep track of all the games you have played with friends and family and keep the friendly competitive banter going!',
+            link: 'https://blooming-reef-74951.herokuapp.com/',
+            repo: 'https://github.com/frieskevin/board-game-tracker',
+            languages: 'React, ReactStrap, MongoDb, Mongoose, GraphQL',
+            img: `${img4}`
         },
         {
             title: 'Coding Quiz',
