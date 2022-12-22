@@ -8,9 +8,6 @@ function App() {
       <div>
         <PortfolioContainer />
       </div>
-      <div>
-        <Foot />
-      </div>
     </div>
   );
 }

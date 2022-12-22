@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Nav from './nav';
+import Foot from './footer'
 import About from '../Pages/about';
 import Portfolio from '../Pages/portfolio';
 import Contact from '../Pages/contact';
@@ -16,10 +17,10 @@ export default function PortfolioContainer() {
       return <Portfolio />;
     }
     if (currentPage === 'Resume') {
-        return <ResumePage />;
-      }
+      return <ResumePage />;
+    }
     return <Contact />;
-}
+  }
 
 
   const handlePageChange = (page) => setCurrentPage(page);
@@ -29,6 +30,11 @@ export default function PortfolioContainer() {
 
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
+      <div>
+
+        <Foot />
+      </div>
     </div>
+
   );
-  }
+}
